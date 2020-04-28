@@ -1473,6 +1473,8 @@ function SSLManager(config) {
             } else {
                 resp = jelastic.env.control.ExecCmdById(envName, session, values.nodeId ||nodeId, toJSON([{ command: command }]), true, "root");
             }
+            
+            log("ExecCmd response: " + resp);
 
             return resp;
         };
