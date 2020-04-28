@@ -47,8 +47,8 @@ targetNodes:
 
 requiredFeatures: extip
 
-homepage: https://github.com/jelastic-jps/lets-encrypt
-baseUrl: https://raw.githubusercontent.com/jelastic-jps/lets-encrypt/master
+homepage: https://github.com/vovkozt/lets-encrypt
+baseUrl: https://raw.githubusercontent.com/vovkozt/lets-encrypt/master
 logo: images/letsencrypt.png
 
 description:
