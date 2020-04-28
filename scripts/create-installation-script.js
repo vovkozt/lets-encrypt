@@ -1,6 +1,6 @@
 //@auth
 //@required(baseUrl, cronTime)
-
+//@timeout(600)
 var baseDir          = getParam("baseDir", "/"),
     customDomains    = getParam("customDomains"),
     scriptName       = getParam("scriptName", "${env.envName}-letsencrypt-ssl"),
